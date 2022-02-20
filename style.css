@@ -1,0 +1,113 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 288px;
+  height: 331px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+padding:0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+li{
+  
+  width: 94px;
+  height: 65px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+#darkslateblue{
+  background: #483d8b;
+}
+
+#cantaloupe{
+  background:   #FFA62F ;
+}
+
+#electricblue{
+  background: #9AFEFF ;
+}
+
+#cornflowerblue	{
+  background: 	#6495ed;
+}
+ 
+#green{
+  background: rgba(0,253,81,1);
+}
+#blue{
+  background: rgba(0,254,255);
+}
+
+#lightyellow{
+  background: rgb(255, 255, 180);
+}
+
+#pink{
+  background: rgb(247, 149, 240);
+}
+
+#rose{
+  background: rgb(253, 103, 89);
+  
+}
+
+#orange{
+  background: orange;
+  
+}
+
+
+#purple{
+  background: purple;
+  
+}
+
+#limegreen{
+  background: limegreen;
+  
+}
+
+#red{
+  background: rgb(238, 3, 3);
+  
+}
+
+
+#indianred{
+  background: indianred;
+  
+}
+
+#turquoise{
+  background: turquoise;
+}
+

@@ -1,113 +1,103 @@
-/******************************************
-/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
-/*******************************************/
-
-/* Box Model Hack */
-*{
-  box-sizing: border-box;
+body{
+    font-size: 62.50%;
+    color: white;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-h1, h2{
-  text-align: center;
-}
-img{
-  display: block;
-  height: 300px;
-  margin: 0 auto;
-}
-ul{
-  width: 288px;
-  height: 331px;
-  border: 3px solid black;
-  margin: 0 auto;
-  list-style: none;
-padding:0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-
-li{
-  
-  width: 94px;
-  height: 65px;
-}
-
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
-#darkslateblue{
-  background: #483d8b;
-}
-
-#cantaloupe{
-  background:   #FFA62F ;
-}
-
-#electricblue{
-  background: #9AFEFF ;
-}
-
-#cornflowerblue	{
-  background: 	#6495ed;
-}
+aside{
+   
+    height:100vh;
+    width: 20%;
  
-#green{
-  background: rgba(0,253,81,1);
-}
-#blue{
-  background: rgba(0,254,255);
+    float: left;
+    background: 
+    linear-gradient( grey, beige) 
+      0/ 100% no-repeat border-box;
+    
+      
+      
+} 
+
+aside > img{
+    width: 50%;
+    border-radius: 50%;
+    margin: 5rem 1rem 0rem 6rem;
+    float: left;
+
 }
 
-#lightyellow{
-  background: rgb(255, 255, 180);
+img{
+    width: 25vw;
+    border-radius: 45%;
+   float: right;
+   clear: both;
+  margin-right: 1rem;
+   margin-top: -20rem; 
+   
 }
 
-#pink{
-  background: rgb(247, 149, 240);
-}
 
-#rose{
-  background: rgb(253, 103, 89);
+ ul{
+     list-style-type: none;
+     float: left;
+     clear: both;
+     
+
+ }
+
+ a{
+
+    text-decoration: none;
+    color: inherit;
+ }
+
+ li{
+    margin: 3rem 1rem 0rem 6rem;
+     font-size: 1rem;
+     font-weight: bolder;
+ }
+section{
+    
+    height: 100vh;
+    float: right;
   
+    width: 80%;
+    background:  linear-gradient( beige, grey) 
+    0/ 100% no-repeat border-box;
+    
+   
 }
 
-#orange{
-  background: orange;
-  
-}
-
-
-#purple{
-  background: purple;
-  
-}
-
-#limegreen{
-  background: limegreen;
-  
-}
-
-#red{
-  background: rgb(238, 3, 3);
-  
+h1{
+    margin: 20rem 0rem 0rem 1rem;
+    font-size: 4rem;
+    width: fit-content;
+    float: left;
+    clear: both;
+    
+    
+    
 }
 
 
-#indianred{
-  background: indianred;
-  
+p{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    float: left;
+    clear: both;
 }
 
-#turquoise{
-  background: turquoise;
-}
+button{
+    margin-top: 0rem;
+    height: 2.5rem;
+    width: 7rem;
+    margin-left: 1rem;
+    background-color: black;
+    font-size: 1.2rem;
+    float: left;
+    clear: both;
+    border-radius: 25%;
+    color: white;
 
+}
